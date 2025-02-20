@@ -16,7 +16,7 @@ public class CandidatRestApi {
     //simple web service for testing
     @GetMapping("/hello")
     public String sayHello() {
-        return "Hello I'm Microservice Job";
+        return "Hello I'm Microservice Candidat";
     }
     @Autowired
     private CandidatService candidatService;
